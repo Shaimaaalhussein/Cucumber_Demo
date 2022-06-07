@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="commonFunctions.TestListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Regression Tests(failed)">
+    <classes>
+      <class name="apiPackage.ApiTest">
+        <methods>
+          <include name="startServer"/>
+          <include name="testStatusCodeGetByInvalidLocation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- apiPackage.ApiTest -->
+      <class name="runner.Runner">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- runner.Runner -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

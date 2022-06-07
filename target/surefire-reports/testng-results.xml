@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="4225" started-at="2022-05-30T10:52:20 EET" finished-at="2022-05-30T10:52:24 EET">
+    <groups>
+    </groups>
+    <test name="Regression Tests" duration-ms="4225" started-at="2022-05-30T10:52:20 EET" finished-at="2022-05-30T10:52:24 EET">
+      <class name="apiPackage.ApiTest">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="startServer" is-config="true" duration-ms="731" started-at="2022-05-30T10:52:20 EET" finished-at="2022-05-30T10:52:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method status="PASS" signature="testStatusCodeGetAll()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="testStatusCodeGetAll" duration-ms="2965" started-at="2022-05-30T10:52:20 EET" finished-at="2022-05-30T10:52:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodeGetAll -->
+        <test-method status="PASS" signature="testStatusCodeGetByInvalidLocation()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="testStatusCodeGetByInvalidLocation" duration-ms="262" started-at="2022-05-30T10:52:23 EET" finished-at="2022-05-30T10:52:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodeGetByInvalidLocation -->
+        <test-method status="PASS" signature="testStatusCodeGetByValidLocation()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="testStatusCodeGetByValidLocation" duration-ms="34" started-at="2022-05-30T10:52:24 EET" finished-at="2022-05-30T10:52:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodeGetByValidLocation -->
+        <test-method status="PASS" signature="testStatusCodePostLocation()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="testStatusCodePostLocation" duration-ms="187" started-at="2022-05-30T10:52:24 EET" finished-at="2022-05-30T10:52:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodePostLocation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:apiPackage.ApiTest@7502291e]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-05-30T10:52:24 EET" finished-at="2022-05-30T10:52:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- apiPackage.ApiTest -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
